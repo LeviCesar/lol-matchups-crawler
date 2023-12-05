@@ -33,9 +33,6 @@ class LeagueOfGraph:
     def _get_matchups_best_with_from_html(self) -> list:
         assert self._response.text, 'response not found'
 
-        with open('log.html', 'w') as file:
-            file.write(self._response.text)
-
         table_infos = re.findall(r'is best with.*?<table.*?>(.*?)</table', self._response.text, flags=re.DOTALL)
         matchups = re.findall(r'<span class=\"name\">(.*?)<\/span>.*?<progressBar data-value=\"(.*?)\"', table_infos[0], flags=re.DOTALL)
         return matchups
