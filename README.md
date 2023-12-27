@@ -12,11 +12,8 @@ Este crawler tem por objetivo capturar as informações referentes a campeões d
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Extração do cnpj e razão social de planilha Excel .xlsx 
-- [x] Integrar com api BigBoost e pegar relações empsáriais
-- [x] Gerar nova planilha Excel com o QSA atualizado
-- [ ] Melhorar planilha Excel gerada, preencher com informações extras da planilha excel antiga 
-- [ ] Adicionar suporte para modelo excel .csv
+- [x] Capturar machups de um campeão especifico 
+- [ ] Capturar matchups e gerar possivel melhor matchup a partir de um campeão selecionado
 
 # Como executar o projeto
 Pré-Requisito: Python 3.8+
@@ -24,7 +21,7 @@ Pré-Requisito: Python 3.8+
 ```bash
 git clone https://github.com/LeviCesar/lol-rpa.git
 
-cd lol-rpa
+cd lol-matchups-crawler
 
 python3 -m virtualenv env
 source env/bin/activate
