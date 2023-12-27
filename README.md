@@ -10,10 +10,7 @@ Este crawler tem por objetivo capturar as informações referentes a campeões d
 
 ## Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
 - [x] Capturar machups de um campeão especifico 
-- [ ] Capturar matchups e gerar possivel melhor matchup a partir de um campeão selecionado
 
 # Como executar o projeto
 Pré-Requisito: Python 3.8+
